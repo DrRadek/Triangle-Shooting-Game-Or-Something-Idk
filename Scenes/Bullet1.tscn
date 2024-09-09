@@ -1,0 +1,29 @@
+[gd_scene load_steps=5 format=3 uid="uid://jwy58rnhaa2h"]
+
+[ext_resource type="Texture2D" uid="uid://d4ghnhbwmd6h8" path="res://icon.svg" id="1_bwpk7"]
+[ext_resource type="Script" path="res://Code/Entities/Bullet.cs" id="1_cl0iw"]
+[ext_resource type="Texture2D" uid="uid://d3l84a56qa504" path="res://art/art1.png" id="3_buyq8"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_7b06q"]
+radius = 7.14286
+height = 16.6667
+
+[node name="Bullet1" type="RigidBody2D" node_paths=PackedStringArray("canvasItem")]
+continuous_cd = 1
+script = ExtResource("1_cl0iw")
+canvasItem = NodePath("Art1")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+rotation = 1.5708
+scale = Vector2(1, 1.68)
+shape = SubResource("CapsuleShape2D_7b06q")
+
+[node name="Icon" type="Sprite2D" parent="."]
+visible = false
+rotation = 1.5708
+scale = Vector2(0.05, 0.2)
+texture = ExtResource("1_bwpk7")
+
+[node name="Art1" type="Sprite2D" parent="."]
+scale = Vector2(0.119998, 0.159999)
+texture = ExtResource("3_buyq8")

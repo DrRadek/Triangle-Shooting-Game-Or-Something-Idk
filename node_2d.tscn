@@ -1,0 +1,201 @@
+[gd_scene load_steps=23 format=3 uid="uid://b0pic0oablq3g"]
+
+[ext_resource type="Script" path="res://Spawner.cs" id="1_8u68t"]
+[ext_resource type="Script" path="res://Code/Entities/Player.cs" id="1_8v1xe"]
+[ext_resource type="Texture2D" uid="uid://d4ghnhbwmd6h8" path="res://icon.svg" id="1_lctq1"]
+[ext_resource type="PackedScene" uid="uid://dtdvricncniiv" path="res://Scenes/enemy1.tscn" id="2_8pi67"]
+[ext_resource type="Script" path="res://Code/Other/GameManager.cs" id="3_pxsn1"]
+[ext_resource type="Script" path="res://Code/Other/GameInput.cs" id="4_ga884"]
+[ext_resource type="Script" path="res://Code/ShieldSystem/ShieldSystem.cs" id="5_lqh6e"]
+[ext_resource type="Texture2D" uid="uid://c8hqxyxsmqcin" path="res://art/art2.png" id="6_3npqs"]
+[ext_resource type="PackedScene" uid="uid://dhev5eyxddnkx" path="res://Code/ShieldSystem/ShieldChunk.tscn" id="6_twp5n"]
+
+[sub_resource type="Gradient" id="Gradient_7l2a7"]
+offsets = PackedFloat32Array(0.11039, 0.512987, 0.597403)
+colors = PackedColorArray(0, 0, 0, 1, 0.152453, 0, 0.194196, 1, 0.257813, 0, 0.00977736, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_eoaks"]
+gradient = SubResource("Gradient_7l2a7")
+width = 128
+height = 128
+fill = 2
+fill_from = Vector2(0.5, 0.5)
+
+[sub_resource type="Gradient" id="Gradient_f2iii"]
+offsets = PackedFloat32Array(0, 0.545455, 1)
+colors = PackedColorArray(0, 0, 0, 1, 0.2, 0.0901961, 0, 1, 1, 0.163893, 0, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_xcy84"]
+gradient = SubResource("Gradient_f2iii")
+width = 128
+height = 128
+fill = 1
+fill_from = Vector2(0.5, 0.5)
+fill_to = Vector2(1.245, -0.185)
+repeat = 1
+
+[sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_uclis"]
+normal = Vector2(1, 0)
+
+[sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_dadwx"]
+normal = Vector2(-1, 0)
+
+[sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_6bh3m"]
+
+[sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_vt1nq"]
+normal = Vector2(0, 1)
+
+[sub_resource type="PhysicsMaterial" id="PhysicsMaterial_sqk1a"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_cqfjf"]
+size = Vector2(28, 26)
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_desrf"]
+radius = 60.0
+
+[sub_resource type="Environment" id="Environment_rm2lw"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_e1qhg"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Arena" type="Node2D" parent="."]
+
+[node name="Icon3" type="Sprite2D" parent="Arena"]
+scale = Vector2(300, 300)
+texture = SubResource("GradientTexture2D_eoaks")
+
+[node name="Icon2" type="Sprite2D" parent="Arena"]
+scale = Vector2(156.23, 156.23)
+texture = SubResource("GradientTexture2D_xcy84")
+
+[node name="Border" type="StaticBody2D" parent="Arena"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Arena/Border"]
+position = Vector2(-10000, 0)
+shape = SubResource("WorldBoundaryShape2D_uclis")
+
+[node name="Border2" type="StaticBody2D" parent="Arena"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Arena/Border2"]
+position = Vector2(10000, 0)
+shape = SubResource("WorldBoundaryShape2D_dadwx")
+
+[node name="Border3" type="StaticBody2D" parent="Arena"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Arena/Border3"]
+position = Vector2(0, 10000)
+shape = SubResource("WorldBoundaryShape2D_6bh3m")
+
+[node name="Border4" type="StaticBody2D" parent="Arena"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Arena/Border4"]
+position = Vector2(0, -10000)
+shape = SubResource("WorldBoundaryShape2D_vt1nq")
+
+[node name="Spawner" type="Node2D" parent="." node_paths=PackedStringArray("player", "label")]
+script = ExtResource("1_8u68t")
+enemyScene = ExtResource("2_8pi67")
+player = NodePath("../Player")
+label = NodePath("../Player/UI/Lives2")
+
+[node name="Player" type="RigidBody2D" parent="." node_paths=PackedStringArray("rotatedNode", "label1")]
+position = Vector2(568, 215)
+physics_material_override = SubResource("PhysicsMaterial_sqk1a")
+gravity_scale = 0.0
+lock_rotation = true
+max_contacts_reported = 1
+contact_monitor = true
+script = ExtResource("1_8v1xe")
+rotatedNode = NodePath("Rotated")
+label1 = NodePath("UI/Lives")
+metadata/_edit_group_ = true
+
+[node name="ShieldSystem" type="Node2D" parent="Player" node_paths=PackedStringArray("storageNode", "globalStorageNode", "offsetXNode")]
+script = ExtResource("5_lqh6e")
+shieldLevels = [ExtResource("6_twp5n")]
+storageNode = NodePath("../Rotated")
+globalStorageNode = NodePath("../../BulletStorage")
+offsetXNode = NodePath("ShieldChunkOffsetX")
+
+[node name="ShieldChunkOffsetX" type="Marker2D" parent="Player/ShieldSystem"]
+position = Vector2(60, 0)
+
+[node name="Icon" type="Sprite2D" parent="Player"]
+scale = Vector2(0.128125, 0.14875)
+texture = ExtResource("6_3npqs")
+
+[node name="Camera2D" type="Camera2D" parent="Player"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Player"]
+shape = SubResource("RectangleShape2D_cqfjf")
+
+[node name="Rotated" type="Node2D" parent="Player"]
+
+[node name="Area2D" type="Area2D" parent="Player"]
+visible = false
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Player/Area2D"]
+shape = SubResource("CircleShape2D_desrf")
+
+[node name="UI" type="Control" parent="Player"]
+layout_mode = 3
+anchors_preset = 0
+offset_left = -34.52
+offset_top = -35.0
+offset_right = 5.48
+offset_bottom = 5.0
+
+[node name="InfoContainer" type="Control" parent="Player/UI"]
+visible = false
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Label" type="Label" parent="Player/UI/InfoContainer"]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="TextureRect" type="TextureRect" parent="Player/UI/InfoContainer"]
+texture_repeat = 2
+layout_mode = 0
+offset_right = 128.0
+offset_bottom = 128.0
+scale = Vector2(0.25, 0.25)
+texture = ExtResource("1_lctq1")
+stretch_mode = 1
+
+[node name="Lives" type="Label" parent="Player/UI"]
+layout_mode = 0
+offset_left = -528.0
+offset_top = -280.0
+offset_right = -471.0
+offset_bottom = -240.0
+text = "Lives :3"
+
+[node name="Lives2" type="Label" parent="Player/UI"]
+offset_left = -529.48
+offset_top = -265.0
+offset_right = -468.48
+offset_bottom = -225.0
+text = "Score :0"
+
+[node name="Icon" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(441, 151)
+texture = ExtResource("1_lctq1")
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_rm2lw")
+
+[node name="GameManager" type="Node" parent="."]
+script = ExtResource("3_pxsn1")
+
+[node name="GameInputRegister" type="Node" parent="."]
+script = ExtResource("4_ga884")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="GameInputRegister"]
+shape = SubResource("CircleShape2D_e1qhg")
+
+[node name="BulletStorage" type="Node2D" parent="."]

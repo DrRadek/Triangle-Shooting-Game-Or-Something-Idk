@@ -1,0 +1,220 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Projects\\Godot\\Games\\RacingGame2d\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Projects\\Godot\\Games\\RacingGame2d\\Spawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Spawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A33D5B4E-75E4-4419-AAA2-8EE43D33E2DB}|RacingGame2D.csproj|d:\\projects\\godot\\games\\racinggame2d\\code\\entities\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A33D5B4E-75E4-4419-AAA2-8EE43D33E2DB}|RacingGame2D.csproj|solutionrelative:code\\entities\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A33D5B4E-75E4-4419-AAA2-8EE43D33E2DB}|RacingGame2D.csproj|d:\\projects\\godot\\games\\racinggame2d\\code\\shieldsystem\\shieldsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A33D5B4E-75E4-4419-AAA2-8EE43D33E2DB}|RacingGame2D.csproj|solutionrelative:code\\shieldsystem\\shieldsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A33D5B4E-75E4-4419-AAA2-8EE43D33E2DB}|RacingGame2D.csproj|d:\\projects\\godot\\games\\racinggame2d\\code\\shieldsystem\\shieldchunk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A33D5B4E-75E4-4419-AAA2-8EE43D33E2DB}|RacingGame2D.csproj|solutionrelative:code\\shieldsystem\\shieldchunk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A33D5B4E-75E4-4419-AAA2-8EE43D33E2DB}|RacingGame2D.csproj|d:\\projects\\godot\\games\\racinggame2d\\code\\entities\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A33D5B4E-75E4-4419-AAA2-8EE43D33E2DB}|RacingGame2D.csproj|solutionrelative:code\\entities\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A33D5B4E-75E4-4419-AAA2-8EE43D33E2DB}|RacingGame2D.csproj|d:\\projects\\godot\\games\\racinggame2d\\code\\playerstats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A33D5B4E-75E4-4419-AAA2-8EE43D33E2DB}|RacingGame2D.csproj|solutionrelative:code\\playerstats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A33D5B4E-75E4-4419-AAA2-8EE43D33E2DB}|RacingGame2D.csproj|d:\\projects\\godot\\games\\racinggame2d\\code\\entities\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A33D5B4E-75E4-4419-AAA2-8EE43D33E2DB}|RacingGame2D.csproj|solutionrelative:code\\entities\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A33D5B4E-75E4-4419-AAA2-8EE43D33E2DB}|RacingGame2D.csproj|d:\\projects\\godot\\games\\racinggame2d\\code\\entities\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A33D5B4E-75E4-4419-AAA2-8EE43D33E2DB}|RacingGame2D.csproj|solutionrelative:code\\entities\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A33D5B4E-75E4-4419-AAA2-8EE43D33E2DB}|RacingGame2D.csproj|d:\\projects\\godot\\games\\racinggame2d\\code\\wavesystem\\wavehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A33D5B4E-75E4-4419-AAA2-8EE43D33E2DB}|RacingGame2D.csproj|solutionrelative:code\\wavesystem\\wavehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A33D5B4E-75E4-4419-AAA2-8EE43D33E2DB}|RacingGame2D.csproj|d:\\projects\\godot\\games\\racinggame2d\\code\\shieldsystem\\ishieldcollectible.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A33D5B4E-75E4-4419-AAA2-8EE43D33E2DB}|RacingGame2D.csproj|solutionrelative:code\\shieldsystem\\ishieldcollectible.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A33D5B4E-75E4-4419-AAA2-8EE43D33E2DB}|RacingGame2D.csproj|d:\\projects\\godot\\games\\racinggame2d\\code\\entities\\iusable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A33D5B4E-75E4-4419-AAA2-8EE43D33E2DB}|RacingGame2D.csproj|solutionrelative:code\\entities\\iusable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Projects\\Godot\\StealingGame\\SharedCode\\Movement\\BasicRb3DMovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Enemy.cs",
+              "DocumentMoniker": "D:\\Projects\\Godot\\Games\\RacingGame2d\\Code\\Entities\\Enemy.cs",
+              "RelativeDocumentMoniker": "Code\\Entities\\Enemy.cs",
+              "ToolTip": "D:\\Projects\\Godot\\Games\\RacingGame2d\\Code\\Entities\\Enemy.cs",
+              "RelativeToolTip": "Code\\Entities\\Enemy.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-06T18:42:57.494Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Weapon.cs",
+              "DocumentMoniker": "D:\\Projects\\Godot\\Games\\RacingGame2d\\Code\\Entities\\Weapon.cs",
+              "RelativeDocumentMoniker": "Code\\Entities\\Weapon.cs",
+              "ToolTip": "D:\\Projects\\Godot\\Games\\RacingGame2d\\Code\\Entities\\Weapon.cs",
+              "RelativeToolTip": "Code\\Entities\\Weapon.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-06T18:43:28.19Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PlayerStats.cs",
+              "DocumentMoniker": "D:\\Projects\\Godot\\Games\\RacingGame2d\\Code\\PlayerStats.cs",
+              "RelativeDocumentMoniker": "Code\\PlayerStats.cs",
+              "ToolTip": "D:\\Projects\\Godot\\Games\\RacingGame2d\\Code\\PlayerStats.cs",
+              "RelativeToolTip": "Code\\PlayerStats.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T16:05:29.764Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "WaveHandler.cs",
+              "DocumentMoniker": "D:\\Projects\\Godot\\Games\\RacingGame2d\\Code\\WaveSystem\\WaveHandler.cs",
+              "RelativeDocumentMoniker": "Code\\WaveSystem\\WaveHandler.cs",
+              "ToolTip": "D:\\Projects\\Godot\\Games\\RacingGame2d\\Code\\WaveSystem\\WaveHandler.cs",
+              "RelativeToolTip": "Code\\WaveSystem\\WaveHandler.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAA5wGEAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T15:58:23.774Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ShieldSystem.cs",
+              "DocumentMoniker": "D:\\Projects\\Godot\\Games\\RacingGame2d\\Code\\ShieldSystem\\ShieldSystem.cs",
+              "RelativeDocumentMoniker": "Code\\ShieldSystem\\ShieldSystem.cs",
+              "ToolTip": "D:\\Projects\\Godot\\Games\\RacingGame2d\\Code\\ShieldSystem\\ShieldSystem.cs",
+              "RelativeToolTip": "Code\\ShieldSystem\\ShieldSystem.cs",
+              "ViewState": "AQIAAHUAAAAAAAAAAIA8wI0AAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T06:36:57.209Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ShieldChunk.cs",
+              "DocumentMoniker": "D:\\Projects\\Godot\\Games\\RacingGame2d\\Code\\ShieldSystem\\ShieldChunk.cs",
+              "RelativeDocumentMoniker": "Code\\ShieldSystem\\ShieldChunk.cs",
+              "ToolTip": "D:\\Projects\\Godot\\Games\\RacingGame2d\\Code\\ShieldSystem\\ShieldChunk.cs",
+              "RelativeToolTip": "Code\\ShieldSystem\\ShieldChunk.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T09:03:15.849Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Bullet.cs",
+              "DocumentMoniker": "D:\\Projects\\Godot\\Games\\RacingGame2d\\Code\\Entities\\Bullet.cs",
+              "RelativeDocumentMoniker": "Code\\Entities\\Bullet.cs",
+              "ToolTip": "D:\\Projects\\Godot\\Games\\RacingGame2d\\Code\\Entities\\Bullet.cs",
+              "RelativeToolTip": "Code\\Entities\\Bullet.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAA9wDMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-06T18:47:51.276Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Player.cs",
+              "DocumentMoniker": "D:\\Projects\\Godot\\Games\\RacingGame2d\\Code\\Entities\\Player.cs",
+              "RelativeDocumentMoniker": "Code\\Entities\\Player.cs",
+              "ToolTip": "D:\\Projects\\Godot\\Games\\RacingGame2d\\Code\\Entities\\Player.cs",
+              "RelativeToolTip": "Code\\Entities\\Player.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAgwD8AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-06T18:42:56.344Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Spawner.cs",
+              "DocumentMoniker": "D:\\Projects\\Godot\\Games\\RacingGame2d\\Spawner.cs",
+              "RelativeDocumentMoniker": "Spawner.cs",
+              "ToolTip": "D:\\Projects\\Godot\\Games\\RacingGame2d\\Spawner.cs",
+              "RelativeToolTip": "Spawner.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T16:11:00.378Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IShieldCollectible.cs",
+              "DocumentMoniker": "D:\\Projects\\Godot\\Games\\RacingGame2d\\Code\\ShieldSystem\\IShieldCollectible.cs",
+              "RelativeDocumentMoniker": "Code\\ShieldSystem\\IShieldCollectible.cs",
+              "ToolTip": "D:\\Projects\\Godot\\Games\\RacingGame2d\\Code\\ShieldSystem\\IShieldCollectible.cs",
+              "RelativeToolTip": "Code\\ShieldSystem\\IShieldCollectible.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T06:45:07.543Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IUsable.cs",
+              "DocumentMoniker": "D:\\Projects\\Godot\\Games\\RacingGame2d\\Code\\Entities\\IUsable.cs",
+              "RelativeDocumentMoniker": "Code\\Entities\\IUsable.cs",
+              "ToolTip": "D:\\Projects\\Godot\\Games\\RacingGame2d\\Code\\Entities\\IUsable.cs",
+              "RelativeToolTip": "Code\\Entities\\IUsable.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-06T18:44:13.851Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "BasicRb3DMovement.cs",
+              "DocumentMoniker": "D:\\Projects\\Godot\\StealingGame\\SharedCode\\Movement\\BasicRb3DMovement.cs",
+              "RelativeDocumentMoniker": "..\\..\\StealingGame\\SharedCode\\Movement\\BasicRb3DMovement.cs",
+              "ToolTip": "D:\\Projects\\Godot\\StealingGame\\SharedCode\\Movement\\BasicRb3DMovement.cs",
+              "RelativeToolTip": "..\\..\\StealingGame\\SharedCode\\Movement\\BasicRb3DMovement.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-06T11:20:44.82Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

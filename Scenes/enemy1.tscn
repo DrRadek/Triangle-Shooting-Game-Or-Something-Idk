@@ -1,0 +1,26 @@
+[gd_scene load_steps=5 format=3 uid="uid://dtdvricncniiv"]
+
+[ext_resource type="Script" path="res://Code/Entities/Enemy.cs" id="1_nx1rf"]
+[ext_resource type="PackedScene" uid="uid://0f8lxcpcimag" path="res://Scenes/Weapon1.tscn" id="2_ehblj"]
+[ext_resource type="Texture2D" uid="uid://bl8f6wom0ugjs" path="res://art/art3.png" id="3_ry5gp"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_lj100"]
+size = Vector2(30, 26)
+
+[node name="Enemy" type="RigidBody2D" node_paths=PackedStringArray("weapon")]
+max_contacts_reported = 1
+contact_monitor = true
+script = ExtResource("1_nx1rf")
+weapon = NodePath("Weapon1")
+
+[node name="Weapon1" parent="." instance=ExtResource("2_ehblj")]
+position = Vector2(58, 0)
+
+[node name="Icon" type="Sprite2D" parent="."]
+rotation = 1.57209
+scale = Vector2(0.0862978, 0.0732407)
+texture = ExtResource("3_ry5gp")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(4.76837e-07, 0)
+shape = SubResource("RectangleShape2D_lj100")

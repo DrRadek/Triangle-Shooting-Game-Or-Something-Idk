@@ -1,0 +1,25 @@
+[gd_scene load_steps=5 format=3 uid="uid://dhev5eyxddnkx"]
+
+[ext_resource type="Script" path="res://Code/ShieldSystem/ShieldChunk.cs" id="1_53slb"]
+[ext_resource type="Texture2D" uid="uid://d4ghnhbwmd6h8" path="res://icon.svg" id="2_3u1ht"]
+[ext_resource type="Texture2D" uid="uid://dxkwnarwt3lj6" path="res://art/art4.png" id="3_ndmsc"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_mlyrh"]
+size = Vector2(6.995, 33.145)
+
+[node name="ShieldChunk" type="Area2D"]
+script = ExtResource("1_53slb")
+
+[node name="Icon" type="Sprite2D" parent="."]
+scale = Vector2(0.048125, 0.26875)
+texture = ExtResource("2_3u1ht")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+visible = false
+shape = SubResource("RectangleShape2D_mlyrh")
+
+[node name="Art4" type="Sprite2D" parent="."]
+position = Vector2(0, 2.27374e-13)
+rotation = 1.57079
+scale = Vector2(0.112, 0.115)
+texture = ExtResource("3_ndmsc")
